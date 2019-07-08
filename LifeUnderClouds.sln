@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "[boilerplate]", "[boilerplate]", "{B5AECD14-A4B0-41C1-BE6A-270318499C9D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Development", "Development", "{76138B63-7405-4AF6-8285-3E5A438EE8C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "[boilerplate]\Development\Client\Client.csproj", "{423B5D27-818F-4B7F-A3E4-28F0F0BA946A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server", "[boilerplate]\Development\Server\Server.csproj", "{93BA3DB1-4216-4D38-963F-4EB1B9E24540}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{423B5D27-818F-4B7F-A3E4-28F0F0BA946A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{423B5D27-818F-4B7F-A3E4-28F0F0BA946A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93BA3DB1-4216-4D38-963F-4EB1B9E24540}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93BA3DB1-4216-4D38-963F-4EB1B9E24540}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{76138B63-7405-4AF6-8285-3E5A438EE8C7} = {B5AECD14-A4B0-41C1-BE6A-270318499C9D}
+		{423B5D27-818F-4B7F-A3E4-28F0F0BA946A} = {76138B63-7405-4AF6-8285-3E5A438EE8C7}
+		{93BA3DB1-4216-4D38-963F-4EB1B9E24540} = {76138B63-7405-4AF6-8285-3E5A438EE8C7}
+	EndGlobalSection
+EndGlobal
