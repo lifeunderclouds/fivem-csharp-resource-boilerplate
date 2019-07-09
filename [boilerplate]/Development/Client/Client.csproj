@@ -25,7 +25,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="CitizenFX.Core.Client, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-      <HintPath>..\..\..\packages\CitizenFX.Core.Client.1.0.1384\lib\net45\CitizenFX.Core.Client.dll</HintPath>
+      <HintPath>..\..\..\packages\CitizenFX.Core.Client.1.0.1386\lib\net45\CitizenFX.Core.Client.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
