@@ -38,7 +38,7 @@ namespace LifeUnderClouds.Boilerplate.Development.Client.Core {
     }
 
     /// <summary>
-    /// Register a (chat) command.
+    ///   Register a (chat) command.
     /// </summary>
     /// <param name="name"></param>
     /// <param name="action"></param>
@@ -58,8 +58,11 @@ namespace LifeUnderClouds.Boilerplate.Development.Client.Core {
     /// <param name="register"></param>
     public void RegisterTickHandler(Func<Task> action, bool register = true) {
       try {
-        if (register) Tick += action;
-        else Tick -= action;
+        if (register) {
+          Tick += action;
+        } else {
+          Tick -= action;
+        }
       } catch (Exception exception) {
         HandleException(exception);
       }
@@ -79,7 +82,7 @@ namespace LifeUnderClouds.Boilerplate.Development.Client.Core {
     }
 
     /// <summary>
-    /// Handles provided exceptions
+    ///   Handles provided exceptions
     /// </summary>
     /// <param name="exception"></param>
     private static void HandleException(Exception exception) {

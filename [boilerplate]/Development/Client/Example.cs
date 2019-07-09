@@ -14,7 +14,7 @@ namespace LifeUnderClouds.Boilerplate.Development.Client {
     }
 
     /// <summary>
-    /// Every time the server sends an example message, show it as an ingame notification.
+    ///   Every time the server sends an example message, show it as an ingame notification.
     /// </summary>
     /// <param name="message"></param>
     private static async void ExampleEventHandler(string message) {
@@ -26,7 +26,7 @@ namespace LifeUnderClouds.Boilerplate.Development.Client {
     }
 
     /// <summary>
-    /// Use `/example` in chat to see the Example subtitle for 2.5 seconds.
+    ///   Use `/example` in chat to see the Example subtitle for 2.5 seconds.
     /// </summary>
     /// <param name="source"></param>
     /// <param name="arguments"></param>
@@ -38,7 +38,7 @@ namespace LifeUnderClouds.Boilerplate.Development.Client {
     }
 
     /// <summary>
-    /// This will show every frame, rendered in the top left corner.
+    ///   This will show every frame, rendered in the top left corner.
     /// </summary>
     /// <returns></returns>
     private static async Task ShowHelpMessageEachTick() {
